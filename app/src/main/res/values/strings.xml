@@ -1,0 +1,7 @@
+<resources>
+  <string name="app_name">Chack</string>
+  <string name="s_jokes">Jokes</string>
+  <string name="s_web">Web</string>
+  <string name="s_reload">Reload</string>
+  <string name="s_number_of_jokes">number of jokes</string>
+</resources>

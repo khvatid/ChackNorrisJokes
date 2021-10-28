@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:id="@+id/app_navigation"
+  app:startDestination="@id/mn_itm_jokes">
+
+  <fragment
+    android:id="@+id/mn_itm_jokes"
+    android:name="com.to_panelka.cnJokes.ui.Jokes.JokesFragment"
+    android:label="Jokes"
+    tools:layout="@layout/fragment_jokes" />
+  <fragment
+    android:id="@+id/mn_itm_web"
+    android:name="com.to_panelka.cnJokes.ui.ApiInfo.ApiInfoFragment"
+    android:label="Api Info"
+    tools:layout="@layout/fragment_api_info" />
+</navigation>
